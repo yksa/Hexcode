@@ -1,0 +1,15 @@
+@import 'ember-paper';
+html{
+    background: #E5E8F1;
+}
+body{
+    width: 700px;
+    background: pink;
+    padding: 20px 20px;
+    margin: 0px auto;
+}
+.border{
+    border-radius: 1px;
+    border-bottom: solid;
+    border-color: blue;
+}

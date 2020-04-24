@@ -1,0 +1,17 @@
+<div>Already Registered?</div>
+<div class="layout-row flex">
+    {{paper-input class="flex" label="Email" type="email" value=email onChange=(action (mut email)) icon="email"}}
+    {{paper-input class="flex" label="Password" type="password" value=password onChange=(action (mut password)) icon="https" }}
+</div>
+{{#paper-button raised=true primary=true onClick=(action "login")}}Log-in{{/paper-button}} <br>
+<p id="error"></p>
+<p class="border"></p>
+{{paper-input label="Username" type="text" value=name onChange=(action (mut name)) icon="person"}} <br>
+{{paper-input label="Email" type="email" value=email onChange=(action (mut email)) icon="email"}} <br>
+{{paper-input label="Password" type="password" value=password_1 onChange=(action (mut password_1)) icon="https" }} <br>
+{{paper-input label="Confirm password" type="password" value=password_2 onChange=(action (mut password_2)) icon="https"}} <br>
+{{#paper-button raised=true primary=true onClick=(action "add")}}Sign-up{{/paper-button}} <br>
+    {{!-- {% module xsrf_form_html() %} --}}
+
+
+

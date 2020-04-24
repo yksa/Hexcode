@@ -1,0 +1,7 @@
+<h1>Sign-in Form</h1>
+<div class="layout-row flex">
+    {{paper-input class="flex" label="Email" type="email" value=email onChange=(action (mut email)) icon="email"}}
+    {{paper-input class="flex" label="Password" type="password" value=password onChange=(action (mut password)) icon="https" }} <br>
+</div>
+{{#paper-button raised=true primary=true onClick=(action "signin")}}Sign-in{{/paper-button}} <br>
+<p id="error"></p>
