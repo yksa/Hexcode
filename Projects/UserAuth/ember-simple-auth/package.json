@@ -87,7 +87,7 @@
     "lerna-changelog": "^1.0.0",
     "loader.js": "^4.5.1",
     "marked": "^1.0.0",
-    "mermaid": "^7.0.3",
+    "mermaid": "^8.11.0",
     "mocha": "^7.0.1",
     "morgan": "^1.10.0",
     "my-engine": "./tests/dummy/lib/my-engine",
